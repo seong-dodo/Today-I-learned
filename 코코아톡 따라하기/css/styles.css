@@ -1,6 +1,9 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
 @import "status-bar.css";
+@import "header.css" ;
+
+
 
 body{
     background-color: white);
@@ -8,4 +11,8 @@ body{
     color: #020202;
     font-family: "Josefin Sans";
     ;
+}
+
+a{
+    color: inherit;
 }
