@@ -1,0 +1,20 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(236, 223, 230);
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: lightsteelblue;
+  box-sizing: border-box;
+}
+
+
+.nav .nav__list {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.nav i {
+    font-size: 20px;
+}
