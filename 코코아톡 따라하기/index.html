@@ -11,51 +11,58 @@
  <body>
     <div class="status-bar">
         <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+            <span class="status-bar__clock">13:54</span>
         </div>
-     <div class="status-bar__column">
-        <i class="far fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-     </div>
+        <div class="status-bar__column">
+             <i class="far fa-clock"></i>
+             <i class="fas fa-volume-mute"></i>
+             <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">100%</span>
+             <i class="fas fa-battery-full"></i>
+        </div>
     </div>
-
  <header class="header">
- <div class="header__header-cloumn">
-     <h1 class="header__tittle">Chats</h1>
- </div>
- <div class="header__header-cloumn">
-     <span class="header__icon">
-         <i class="fas fa-search"></i>
-     </span>
-     <span class="header__icon">
-         <i class="far fa-comment"></i>
-     </span>
-     <span class="header__icon">
-         <i class="fas fa-cog"></i>
-     </span>
- </div>
+      <div class="header__header-cloumn">
+           <h1 class="header__tittle">Chats</h1>
+      </div>
+      <div class="header__header-cloumn">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="far fa-comment"></i>
+          </span>
+          <span class="header__icon">
+             <i class="fas fa-cog"></i>
+          </span>
+     </div>
  </header>
-
  <main class"Chats">
-    <ul class="Chats__list">
-        <li class="Chats__chat chat">
+       <ul class="Chats__list">
+         <li class="Chats__chat friend friend--lg">
             <a href="chat.html">
-            <div class="chat__cloum">
-                <img class="chat__avatar g-avatar" src="images/avatar.jpg"/></img>
-            </div>
-
-    <div class="chat__content">
-        <span class="chat__username">Darlene</span>
-        <span class="chat__preview">enough for life</span>
-    </div>
-           </a>
-   
-        </li>
-    </ul>
- </main>
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" alt="" class="m-avatar friend__avatar">      
+                      <div class="friend__content">
+                          <span class="friend__name">
+                           Syunyun
+                          </span>
+                          <span class="friend__botton-text">
+                            Go Home!
+                          </span>
+                       </div>
+                </div>
+            </a>  
+              <div class="friend__column">
+                      <div class="friend__now-listening">
+                          <span class="chat__timestamp">
+                             March 8
+                          </span>
+                      </div>
+              </div>                 
+         </li>
+        </ul>
+  </main>
 
     <nav class="nav">
         <ul class="nav__list">
