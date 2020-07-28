@@ -1,0 +1,58 @@
+.find .find__header {
+  box-sizing: border-box;
+  justify-content: space-between;
+  border-top: 1px solid #f7f7f7 ;
+  border-bottom:  1px solid #f7f7f7; 
+}
+
+
+.find .find__header-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.find .header-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+    opacity: 0.7;
+}
+
+
+.find .header-title {
+    color: rgb(53, 50, 48);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.find .find__recommended {
+    margin-top: 20px;
+}
+
+.find .find__title {
+    font-size: 14px;
+    opacity: 0.5;
+    width: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+ }
+
+
+ .find .friend__icon {
+    background-color: rgb(230, 209, 209);  
+    font-size: 12px;
+    opacity: 0.8;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+ }
