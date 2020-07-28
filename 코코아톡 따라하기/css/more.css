@@ -1,0 +1,82 @@
+.more .more__header {
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  
+
+.more .friend__column-i {
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+
+.more .more__btn-list{
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+
+.more__btn-list .more_btn {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: conter;
+}
+
+.more_btn .more__btn-title {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.more_btn .more__btn-icon {
+   display: flex;
+   align-items: center;
+}
+
+
+.more .more__suggestions {
+    border-top:  1px solid #f7f7f7;
+    padding-top: 20px;
+}
+
+.more .more__suggestions-list {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.more .more__suggestion-icon {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: conter;
+    cursor: pointer;
+    background-color: rgb(245, 245, 28);
+    color: white;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 12px;
+
+}
+
+
+.more .suggestions__title {
+    display: flex;
+    align-items: center;
+    width: 500;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+
+.more .suggestion__title {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
