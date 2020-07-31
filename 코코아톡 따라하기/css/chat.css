@@ -1,0 +1,39 @@
+
+
+.chat__write {
+    position: fixed;
+    bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 244, 248);
+    padding: 0px 20px;
+    border-radius: 40px;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.2) ;
+}
+
+.chat__write i {
+    font-size: 22px;
+}
+
+.chat__write-column:nth-child(2) {
+    width: 80%;
+}
+
+
+
+.chat__write-column input {
+    padding: 10px ;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+}
+
+
+.chat__write-column input:focus {
+    outline: none;
+}
