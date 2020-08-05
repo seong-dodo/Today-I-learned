@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+    <meta charset="UTF-8">
+    <title>Form 요소</title>
+    </head>
+    <boby>
+        <h1>Form 관련 요소</h1>
+        <fieldset>
+            <legend>기본 정보</legend>
+        <label for="userid">ID:</label> <input type="text" placeholder="영문으로만 써주세요." id="userid"><br>
+        <label for="userpw">PW:</label> <input type="password" id="userpw"><br>
+        성별: <label for="gem">남자</label> <input type="radio" name="gender" id="gem">, <label for="gew">여자</label> <input type="radio" name="gender" id="gew"><br>
+        </fieldset>
+        <fieldset>
+            <legend>추가 정보</legend>
+            프로필 사진 업로드 : <input type="file"><br>
+            사는 지역 : <select>
+                <option>서울</option>
+                <option>경기</option>
+                <option selected>경남</option>
+                <option>제주</option>
+            </select><br>
+            자기소개 : <textarea cols="50" rows="6" placeholder="자기소개 짧게 5줄 이내로 작성하세요."></textarea>
+            <button type="submit">전송</button>
+            <button type="reset">취소</button><br>
+        </fieldset>
+        <input type="button" value="등록">
+        <input type="reset" value="취소">
+        <input type="submit" value="전송"><br>
+        정보제공동의: E-mail <input type="checkbox" checked>, DM <input type="checkbox">, SNS <input type="checkbox"><br>
+        <input type="image" src="images/avatar1.jpg" alt="로그인" width="300" height="30"><br>
+    </boby>
+</html>
